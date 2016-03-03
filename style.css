@@ -1,0 +1,136 @@
+header {
+  background-color: black;
+  border-bottom: 2px solid yellow;
+  color: white;
+  overflow: hidden;
+}
+
+header h1 {
+  color: yellow;
+}
+
+header nav li {
+  float: right;
+  margin: 0px 3px 0px 24px ;
+  color: white;
+  list-style-type: none;
+}
+
+header nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+section.greybg {
+  background-color: grey;
+  margin: 0px;
+  height: 100%;
+}
+
+section h2 {
+  margin: 0px;
+  padding: 10px 0px;
+}
+
+section h2 em {
+  color: #666;
+}
+
+section h2 strong {
+  text-decoration: underline;
+    -moz-text-decoration-color: yellow; /* Code for Firefox */
+    text-decoration-color: yellow;
+}
+
+
+h3{font-family: Athelas;
+	font-weight: 800;
+	color:black;
+	font-size:24px;
+}
+
+p{font-family: Myriad Pro;
+	font-size:16px;
+	} 
+
+.button{display: block;
+    background:#b1b2b3 ;
+    text-decoration:none;
+    text-align: center;
+    font-family: 'IMPACT', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    color: black ;
+    border-radius:5px;
+    margin: 0 auto; height:30px; width:150px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -o-border-radius:5px;
+    -webkit-box-shadow: 0 2px;
+    -moz-box-shadow: 0 2px;
+    -o-box-shadow: 0 2px;}
+
+.signup, .developer, .designer {width:31%;  
+	display: inline-block;
+	padding:1%;
+}
+
+.developer, .designer{border-left: thin solid lightgrey;}
+
+
+#page-header {
+  background: black;
+  color: white;
+  overflow: hidden;
+  border-bottom: 4px solid yellow;
+  padding: 0 3%;
+}
+
+#page-header nav {
+  float: right;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    float: left;
+}
+
+
+
+main{
+  width: 100%;
+  background-image:url(images/coworking.jpg);
+  background-size:cover;
+  height: 900px;
+}
+
+
+aside {
+  width: 200px;
+  padding: 40px 20px;
+ /* position: relative;
+  left: 800px;
+  top: -600px;*/
+  float: right;
+  margin: 100px 100px 0 0;
+  background-color: white;
+  opacity: 0.7;
+  box-shadow: 2px 2px 2px #888888;
+  border: 1px;
+  border-style: solid;
+  border-color: #888888;
+
+}
+
+#create {
+  background-color: yellow;
+  padding: 10px 30px;
+  margin-left: 15px;
+  border-radius: 4px;
+
+}
+
+
